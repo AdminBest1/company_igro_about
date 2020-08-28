@@ -1,0 +1,620 @@
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('../fonts/../fonts/ProximaNovaExCn-Regular.eot');
+    src: url('../fonts/ProximaNovaExCn-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/ProximaNovaExCn-Regular.woff2') format('woff2'),
+        url('../fonts/ProximaNovaExCn-Regular.woff') format('woff'),
+        url('../fonts/ProximaNovaExCn-Regular.ttf') format('truetype'),
+        url('../fonts/ProximaNovaExCn-Regular.svg#ProximaNovaExCn-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+body {
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #393939;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+h2 {
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 33px;
+    text-align: center;
+}
+h3 {
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    text-align: center;
+}
+p {
+    font-size: 14px;
+    line-height: 24px;
+}
+
+hr {
+    display: block;
+    width: 100%;
+    height: 1px;
+    margin: 40px 0;
+
+    border: 0;
+    background-color: #e5e5e5;
+}
+
+/* Page */
+.page {
+    overflow: hidden;
+}
+
+
+/* Container */
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+
+/* Intro */
+.intro {
+    width: 100%;
+      
+}
+
+.intro_bg {
+    background: url("../images/intro.jpg") center no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    height: 400px;  
+}
+
+.intro__title {
+    padding: 135px 0px 0px 134px;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    max-width: 480px;
+    color: #FFFFFF;
+}
+
+
+
+
+/* Button */
+.btn {
+    font-family: 'Proxima Nova', 'Times New Roman';
+    font-size: 18px;
+    line-height: 16px;
+    display: inline-block;
+    padding: 12px 16px;
+    background: #E3FC46;
+    color: #000000;
+    border-radius: 3px;
+    text-decoration: none;
+    transition: background .1s linear, color .1s linear;
+}
+
+
+
+
+
+
+
+/* Section */
+.section {
+    margin-top: 81px;
+}
+
+.section--devices {
+    margin-bottom: 40px;
+    padding-bottom: 0;
+
+    background: url("../images/devices-bg.jpg") center no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.section--gray {
+    background-color: #f8f8f8;
+}
+
+.section--clients {
+    background: #f5f5f5 url("../images/clients-bg.jpg") center no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.section--map {
+    padding: 40px 0;
+    background: #e6e6e6 url("../images/map-bg.jpg") center no-repeat / cover;
+}
+.section__wraper {
+    width: 555px;
+}
+
+.section__header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section__suptitle {
+    text-align: left;
+    margin-top: 16px;
+    margin-bottom: 32px;
+}
+
+.section__title {
+    text-align: left;    
+}
+
+.section__text {
+    margin-bottom: 32px;
+    font-size: 15px;
+    color: #999;
+}
+.section__img {
+    display: flex; 
+    margin-right: 34px;  
+}
+
+.section__img_item {
+    margin-right: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/*logo about*/
+.logo_nirve {
+    width: 93px;
+    height: 49px;    
+}
+.logo_starpil {
+    margin-top: 21px;   
+    width: 112px;
+    height: 40px;
+}
+.logo_igrobeauty {
+    margin-top: 26px;   
+    width: 134px;
+    height: 42px;
+}
+.logo_starsoft {
+    margin-top: 22px;   
+    width: 54px;
+    height: 51px;
+}
+
+
+.logo_livissime {
+    width: 125px;
+    height: 40px;
+}
+.logo_depilflax {
+    margin-top: 20px;   
+    width: 124px;
+    height: 42px;
+}
+.logo_marbarselona {
+    margin-top: 27px;   
+    width: 114px;
+    height: 41px;
+}
+.logo_lashcolor {
+    margin-top: 35px;   
+    width: 113px;
+    height: 24px;
+}
+
+.logo_refectocil {
+    width: 125px;
+    height: 21px;
+}
+.logo_develour {
+    margin-top: 24px;   
+    width: 115px;
+    height: 34px;
+}
+.logo_soleo {
+    margin-top: 38px;   
+    width: 116px;
+    height: 19px;
+}
+.logo_comair {
+    margin-top: 37px;   
+    width: 106px;
+    height: 20px;
+}
+/* /logo about*/
+
+
+/* about_us*/
+.about_us {
+    margin-top: 60px;
+    display: flex;
+}
+.about_us__title {
+    text-align: left;
+}
+.about_us__suptitle {
+    text-align: left;
+}
+/* /about_us*/
+
+/* advantage*/
+.advantage {
+    margin-top: 64px;
+}
+.advantage__suptitle {
+    text-align: center;
+}
+.advantage__title {
+    text-align: center;    
+}
+/* /advantage*/
+
+/* cooperation*/
+.about_us__item {
+    width: 40%;
+}
+.cooperation__card {
+    display: flex;
+    justify-content: space-between;
+}
+.cooperation__item {
+    display: flex;
+    justify-content: space-between;
+    background: url(../images/cooperation/bg1.png) no-repeat;
+    background-size: contain;
+    background-position: right bottom;
+    box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.15);
+}
+.cooperation__item:nth-child(2) {
+    background: url(../images/cooperation/bg2.png) no-repeat;
+    background-size: contain;
+    background-position: right bottom;
+}
+
+.cooperation__title {
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+}
+.cooperation__offer_suptitle {
+    margin: 64px 0px 32px 0px;
+    text-align: left;
+}
+.cooperation__offer_text {
+    text-align: left;    
+}
+.cooperation__text {
+    text-align: center;
+    color: #000000;
+}
+.cooperation__offer_namber p {
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    vertical-align:middle;
+    padding: 30px 30px 30px 30px;
+    color: #393939;
+    background: #E6EBFF;
+    border-radius: 100px;
+    height: 88px;
+    width: 88px;
+}
+.btn-cooperation {
+    background: #333333;
+    color: #FFFFFF;
+}
+/* /cooperation*/
+
+
+/* playground*/
+.playground__title {
+    line-height: 33px;
+    text-align: left;
+}
+.playground__card {
+    display: flex;
+}
+.playground__card_item {  
+    display: flex;  
+    width: 50%;
+    max-height: 409px;
+    background: rgba(227, 252, 70, 0.1);
+}
+.playground__card_item:nth-child(2) {    
+    background: rgba(47, 128, 237, 0.12);
+}
+.playground__card_item:nth-child(3) {    
+    background: rgba(32, 172, 122, 0.08);
+}
+.playground__card_item:nth-child(4) {    
+    background: rgba(243, 228, 255, 0.3);
+}
+.playground__offer {
+    padding: 32px 16px 32px 16px;
+}
+.playground__title {
+    margin: 8px 0px 32px 0px;
+}
+/* /playground*/
+
+
+/* /The educational center*/
+.center {
+    margin-top: 37px;
+    height: 400px;
+}
+.center_bg {
+    max-height: 458.36px;
+    border-radius: 5px;
+    position: absolute;  
+}
+.center__offer {
+    width:  59.1666667%;
+    margin-top: 64px;
+    padding-left: 166px; 
+    padding-right: 69px;
+    padding-bottom: 64px;
+    background: #F1F4EF;
+    border-radius: 5px;
+    float: right;
+}
+.center__title {
+    padding-top: 64px;
+    padding-bottom: 25px;
+}
+.cooperation__offer_text p:nth-child(2) {
+    margin-top: 27px;
+}
+.df {
+    display: flex;
+    position: relative;
+}
+/* /The educational center*/
+
+/* Statistics */
+.stat {
+    display: flex;
+    flex-wrap: wrap;
+}
+.statistics__title {
+    margin: 164px 0px 64px 0px;
+}
+.stat__item {
+    flex: 1 1 0;
+    padding: 70px 25px;
+    text-align: center;
+}
+.stat__item:nth-child(1) {
+    background: #F0F6FF;
+}
+.stat__item:nth-child(3) {
+    background: #FAFFDA;
+}
+
+.stat__text-up {
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+}
+.stat__count {
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 64px;
+    line-height: 67px;
+    text-align: center;
+    color: #4F4F4F;
+}
+
+.stat__text {
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 33px;
+    text-align: center;;
+}
+/* /Statistics*/
+
+/* study*/
+.study__title {
+    margin-top: 64px;
+}
+.bottom-image {
+    font-size: 12px;
+    line-height: 22px;
+    color: #4F4F4F;
+}
+.study__name {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+}
+.study__price {
+    font-weight: bold;
+}
+.study__price span {
+    font-family: PT Mono;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 14px;
+    color: #4F4F4F;
+}
+.card__wraper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.study__prof {
+
+}
+/* /study*/
+
+/* Card */
+.card {
+    margin: 80px -15px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card__item {
+    width: 33.33333%;
+    padding: 0 15px;
+}
+
+.card__inner:hover .card__img {
+    transform: translate3d(-10px, -10px, 0);
+}
+
+.card__inner:hover .card__img img {
+    opacity: .1;
+}
+
+.card__inner:hover .card__text {
+    opacity: 1;
+}
+
+.card__img img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    transition: opacity .1s linear;
+}
+
+.card__text {
+    width: 100%;
+
+    font-size: 18px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+    opacity: 0;
+
+    position: absolute;
+    top: 50%;
+    left: 0;
+    z-index: 2;
+    transform: translate3d(0, -50%, 0);
+
+    transition: opacity .2s linear;
+}
+
+.card__info {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.card__name {
+    margin-bottom: 5px;
+
+    font-size: 14px;
+    color: #333;
+}
+
+.card__prof {
+    font-family: Proxima Nova;
+    font-size: 16px;
+    line-height: 16px;
+    color: #2F80ED;
+}
+/* /Card */
+
+/* Mail */
+.mail {
+    margin-top: 16px;
+    padding-bottom: 32px;   
+    background: #E6EBFF;
+}
+.mail__title {
+    padding-top: 32px;
+}
+.mail__subtitle {
+    text-align: center;
+}
+.mail-text {
+    color: #828282; 
+}
+.checkbox {
+    color: green;
+}
+.form_wraper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.input {
+    width: 350px;
+    height: 54px;
+    border: 1px solid #393939;
+    box-sizing: border-box;
+    border-radius: 3px;
+    color: #000000;
+}
+
+
+/*style chekbox*/
+label input {
+  display: none;/* <--скрываем дефолтный чекбокс */
+}
+label span {/* <-- стилизируем новый */
+  height: 10px;
+  width: 10px;
+  border: 1px solid gray;
+  display: inline-block;
+  position: relative;
+  background-color:#FFF;
+  border-radius:2px;
+  padding:3px;
+}
+[type=checkbox]:checked + span:before {/* <-- ставим иконку, когда чекбокс включен  */
+  content: '\2714';
+  position: absolute;
+  top: -6px;
+  left: 1px;
+  font-size: 8px;
+  color:blue;
+}
+/* /style chekbox*/
+.mail-btn {
+    background: #333333;
+    color: #FFFFFF;
+}
+/* /Mail */
+
+/* sections */
+.sections {
+    padding: 64px 0px 64px 0px;
+}
+.sections__item {
+    width: 49%;
+}
+.sections__item:nth-child(2) img{
+    width: 183px;
+    height: 164px;
+}
+
+/* /sections */
